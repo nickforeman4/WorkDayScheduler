@@ -20,10 +20,15 @@ Create 2 seperate files:
 ### script.js
 - Use function to pull the current date
 - Create function to store the different events in each of the specific time blocks
+- Edit the colors of the blocks to coincide with current time:
+  + "Past" Time Block - Red
+  + "Current" Time Block - Green
+  + "Future" Time Block - Yellow
+
 
 ## Usage
 
-N/A
+![Image of Work Day Scheduler](https://octodex.github.com/images/yaktocat.png)
 
 ## Credits
 
