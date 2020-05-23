@@ -28,7 +28,7 @@ Create 2 seperate files:
 
 ## Usage
 
-![Image of Work Day Scheduler](https://octodex.github.com/images/yaktocat.png)
+![Image of Work Day Scheduler](https://github.com/nickforeman4/WorkDayScheduler/blob/master/workDayScheduler.JPG)
 
 ## Credits
 
