@@ -10,6 +10,7 @@
 </head>
 <body>
     <h1>Work Day Scheduler</h1>
+    <h6 id="currentTime"></h6>
     <br>
     <table class="table table-striped">
         <thead class="thead-dark">
@@ -21,535 +22,114 @@
         </thead>
         <tbody>
             <tr>
-                <th scope="row">12:00 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">12:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">1:00 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">1:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">2:00 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">2:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">3:00 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">3:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">4:00 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">4:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">5:00 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">5:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">6:00 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">6:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">7:00 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">7:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">8:00 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">8:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
                 <th scope="row">9:00 AM</th>
                 <td>
                     <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
+                        <input type="event" class="form-control" id="eventInput-9" placeholder="Enter Event Here">
                     </div>
                 </td>
                 <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">9:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
+                    <button class="btn btn-primary" id="save-9" type="save">Save</button>
                 </td>
             </tr>
             <tr>
                 <th scope="row">10:00 AM</th>
                 <td>
                     <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
+                        <input type="event" class="form-control" id="eventInput-10" placeholder="Enter Event Here">
                     </div>
                 </td>
                 <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">10:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
+                    <button class="btn btn-primary" id="save-10" type="save">Save</button>
                 </td>
             </tr>
             <tr>
                 <th scope="row">11:00 AM</th>
                 <td>
                     <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
+                        <input type="event" class="form-control" id="eventInput-11" placeholder="Enter Event Here">
                     </div>
                 </td>
                 <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">11:30 AM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
+                    <button class="btn btn-primary" id="save-11" type="save">Save</button>
                 </td>
             </tr>
             <tr>
                 <th scope="row">12:00 PM</th>
                 <td>
                     <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
+                        <input type="event" class="form-control" id="eventInput-12" placeholder="Enter Event Here">
                     </div>
                 </td>
                 <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">12:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
+                    <button class="btn btn-primary" id="save-12" type="save">Save</button>
                 </td>
             </tr>
             <tr>
                 <th scope="row">1:00 PM</th>
                 <td>
                     <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
+                        <input type="event" class="form-control" id="eventInput-13" placeholder="Enter Event Here">
                     </div>
                 </td>
                 <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">1:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
+                    <button class="btn btn-primary" id="save-13" type="save">Save</button>
                 </td>
             </tr>
             <tr>
                 <th scope="row">2:00 PM</th>
                 <td>
                     <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
+                        <input type="event" class="form-control" id="eventInput-14" placeholder="Enter Event Here">
                     </div>
                 </td>
                 <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">2:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
+                    <button class="btn btn-primary" id="save-14" type="save">Save</button>
                 </td>
             </tr>
             <tr>
                 <th scope="row">3:00 PM</th>
                 <td>
                     <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
+                        <input type="event" class="form-control" id="eventInput-15" placeholder="Enter Event Here">
                     </div>
                 </td>
                 <td>
-                    <button class="btn btn-primary" type="save">Save</button>
+                    <button class="btn btn-primary" id="save-15" type="save">Save</button>
                 </td>
             </tr>
             <tr>
-                <th scope="row">3:30 PM</th>
+                <th scope="row">4:00 AM</th>
                 <td>
                     <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
+                        <input type="event" class="form-control" id="eventInput-16" placeholder="Enter Event Here">
                     </div>
                 </td>
                 <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">4:00 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">4:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
+                    <button class="btn btn-primary" id="save-16" type="save">Save</button>
                 </td>
             </tr>
             <tr>
                 <th scope="row">5:00 PM</th>
                 <td>
                     <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
+                        <input type="event" class="form-control" id="eventInput-17" placeholder="Enter Event Here">
                     </div>
                 </td>
                 <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">5:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">6:00 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">6:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">7:00 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">7:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">8:00 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">8:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">9:00 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">9:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">10:00 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">10:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">11:00 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">11:30 PM</th>
-                <td>
-                    <div class="form-group">
-                        <input type="event" class="form-control" id="eventInput" placeholder="Enter Event Here">
-                    </div>
-                </td>
-                <td>
-                    <button class="btn btn-primary" type="save">Save</button>
+                    <button class="btn btn-primary" id="save-17" type="save">Save</button>
                 </td>
             </tr>
         </tbody>
     </table>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+    </script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
 
     <script src="script.js"></script>
 
